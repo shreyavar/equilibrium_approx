@@ -450,7 +450,7 @@ def entropies_times(times, label):
 		np.save(f,allentstimes)
 
 	#with open('allentstimes_'+str(L)+'_theta_'+str(int(theta*100)*0.01)+'_phi_'+str(int(phi*100)*0.01)+'_timerange'+label+'.npy', 'rb') as f:
-		allentstimes = np.load(f)
+		#allentstimes = np.load(f)
 
 	return allentstimes 
 
